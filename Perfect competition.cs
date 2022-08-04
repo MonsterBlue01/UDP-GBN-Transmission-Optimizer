@@ -10,3 +10,6 @@ Monopolistic competition:
     - Each supplier independently decides the market strategy (not a joint monopoly)
     - Suppliers have relatively high market pricing power
     - Buyer and seller have incomplete information
+
+Monopoly, generally refers to the sole seller in one or more markets, through one or more stages, facing competitive consumers, as opposed to a buyer's 
+monopoly.
