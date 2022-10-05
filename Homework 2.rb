@@ -1,4 +1,3 @@
-Section 1.7: Problems 7, 8 (360/2401)
 Section 1.8: Problems 1, 4 (1/10626), 6 (2/n), 10 (0.1630), 11, 12 
 (0.5798), 17
 
@@ -8,7 +7,7 @@ Section 1.5: 3: a. 1/2
 
             4: 0.2 + 0.5 - 0.1 = 0.6
             6: 0.2 + 0.5 - 0.1 - 0.1 = 0.5
-            7:  Min: 0.1 When Pr(A ∪ B) = 1.
+            7:  Min: 0.1 When Pr(A ∪ B) = 1
                 Max: 0.4. When A ⊂ B.
             9:  Proved.
             11. 
@@ -26,3 +25,7 @@ Section 1.7: 2: 20 * 18 * 25 = 9000
             5. Now we can choose 4 different numbers from 1, 2, 3, 4, 5, 6 by 6C4 ways. Then we can asign this to four dices in 4! ways. The number of 
             possibilities of event A is 6C4 * 4! = 6!/4!2! * 4! = 6!/2.
             P(A) = 6!/2 / 6^4 = 6!/2 / 1296 = 5/18
+            7. Total number of possible cases: 20^12
+            Probability = fovorable / total = 20 * 19 * 18... * 9 / 20^12 = 0.01473
+            8. 5 + 7 - 1 = 11
+            possibility = 7C5 / 11C5
