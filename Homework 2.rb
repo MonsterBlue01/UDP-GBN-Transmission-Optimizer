@@ -1,4 +1,4 @@
-Section 1.7: Problems 2 (9000), 3, 5, 7, 8 (360/2401)
+Section 1.7: Problems 7, 8 (360/2401)
 Section 1.8: Problems 1, 4 (1/10626), 6 (2/n), 10 (0.1630), 11, 12 
 (0.5798), 17
 
@@ -20,3 +20,9 @@ Section 1.6: 1: 1/2
             3: 2/3
             4: 1/7
             6: 1/4
+
+Section 1.7: 2: 20 * 18 * 25 = 9000
+            3: 5 * 4 * 3 * 2 * 1 = 120
+            5. Now we can choose 4 different numbers from 1, 2, 3, 4, 5, 6 by 6C4 ways. Then we can asign this to four dices in 4! ways. The number of 
+            possibilities of event A is 6C4 * 4! = 6!/4!2! * 4! = 6!/2.
+            P(A) = 6!/2 / 6^4 = 6!/2 / 1296 = 5/18
