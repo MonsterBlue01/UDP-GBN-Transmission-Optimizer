@@ -1,4 +1,4 @@
-Section 1.8: Problems 10 (0.1630), 11, 12 (0.5798), 17
+Section 1.8: Problems 12 (0.5798), 17
 
 Section 1.5: 3: a. 1/2
                 b. 1/6
@@ -33,3 +33,8 @@ Section 1.8: 1. 20!/(10!10!) = 184756
             4: Probability that all four bulbs will be defective: 4C4 / 24C4 = (4!/(4!*0!) / (24!/(4!*20!)
             6: Let's treat A and B as one person. AB can seat as (n - 1)! ways. And they have 2! ways to choose their seats. So the total number of way to 
             choose the seats are 2!(n - 1)! / n! = 2! / n! = 2 / n
+            10: Total number of ways: 24C10 = 24! / (10! * 14!).
+            The number of ways to select two defective light bulbs with other eight normal bulbs: 2C2 * 22C8 = 319770 / 1961256 = 0.1630
+            11: The number of all ways: 100C12
+            The number of ways to choose 2 people with other people (all 10): 98C10
+            The probability: 98C10 / 100C12 = 0.0133
