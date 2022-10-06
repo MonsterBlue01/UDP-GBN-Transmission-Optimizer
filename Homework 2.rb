@@ -1,5 +1,4 @@
-Section 1.8: Problems 1, 4 (1/10626), 6 (2/n), 10 (0.1630), 11, 12 
-(0.5798), 17
+Section 1.8: Problems 10 (0.1630), 11, 12 (0.5798), 17
 
 Section 1.5: 3: a. 1/2
                 b. 1/6
@@ -29,3 +28,8 @@ Section 1.7: 2: 20 * 18 * 25 = 9000
             Probability = fovorable / total = 20 * 19 * 18... * 9 / 20^12 = 0.01473
             8. 5 + 7 - 1 = 11
             possibility = 7C5 / 11C5
+
+Section 1.8: 1. 20!/(10!10!) = 184756
+            4: Probability that all four bulbs will be defective: 4C4 / 24C4 = (4!/(4!*0!) / (24!/(4!*20!)
+            6: Let's treat A and B as one person. AB can seat as (n - 1)! ways. And they have 2! ways to choose their seats. So the total number of way to 
+            choose the seats are 2!(n - 1)! / n! = 2! / n! = 2 / n
