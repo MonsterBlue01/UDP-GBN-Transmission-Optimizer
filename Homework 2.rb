@@ -1,5 +1,3 @@
-Section 1.8: Problems 12 (0.5798), 17
-
 Section 1.5: 3: a. 1/2
                 b. 1/6
                 c. 3/8
@@ -38,3 +36,5 @@ Section 1.8: 1. 20!/(10!10!) = 184756
             11: The number of all ways: 100C12
             The number of ways to choose 2 people with other people (all 10): 98C10
             The probability: 98C10 / 100C12 = 0.0133
+            12: (10 2)/(35 2) + (25 2)/(35 2) - (10 2)/(35 2) * (25 2)/(35 2) = 0.5798
+            17: 4(13 4)/(52 4)
