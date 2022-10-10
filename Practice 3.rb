@@ -15,7 +15,8 @@ Problem 5: P(CF|XR) = P(CF ∪ XR) / P(XR)
             P(TE|XR, CF) = P(TE ∪ XR ∪ CF) / P(XR ∪ CF)
             P(TE ∪ XR ∪ CF) = P(CF ∪ XR) * P(TE|XR, CF)
             So the answer is 0.6 * 0.3 * 0.1 = 0.018
-Problem 6: 
+Problem 6: (a): P (C) = 0.05, P (D|C) = 0.78
+            (b): P (D) = P (C)·P (D|C)+P (C’)·P (D|C’) = 0.05 × 0.78 / 0.096 = 0.416
 Problem 7:
 Problem 8:
 Problem 9:
