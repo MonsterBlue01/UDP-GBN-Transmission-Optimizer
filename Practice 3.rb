@@ -17,6 +17,7 @@ Problem 5: P(CF|XR) = P(CF ∪ XR) / P(XR)
             So the answer is 0.6 * 0.3 * 0.1 = 0.018
 Problem 6: (a): P (C) = 0.05, P (D|C) = 0.78
             (b): P (D) = P (C)·P (D|C)+P (C’)·P (D|C’) = 0.05 × 0.78 / 0.096 = 0.416
-Problem 7:
-Problem 8:
+Problem 8:  Box is chosen at random—assume P(GG) = P(GS) = P(SS) = 1 / 2. P(G) is probability of withdrawing a gold coin. P(G | box) is the 
+            probability of withdrawing a gold coin from a particular box. P(GG|G) = (P(G | GG)P * (GG)) / (P(G | GG)P(GG) + P(G | GS)P(GS) + 
+            P(G | SS)P(SS)) = (1 × 1 / 3) / (1 × 1 / 3 + 1 / 2 × 1 / 3 + 0 × 1 / 3) = 2 / 3
 Problem 9:
