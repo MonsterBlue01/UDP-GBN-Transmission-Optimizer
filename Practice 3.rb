@@ -20,4 +20,3 @@ Problem 6: (a): P (C) = 0.05, P (D|C) = 0.78
 Problem 8:  Box is chosen at random—assume P(GG) = P(GS) = P(SS) = 1 / 2. P(G) is probability of withdrawing a gold coin. P(G | box) is the 
             probability of withdrawing a gold coin from a particular box. P(GG|G) = (P(G | GG)P * (GG)) / (P(G | GG)P(GG) + P(G | GS)P(GS) + 
             P(G | SS)P(SS)) = (1 × 1 / 3) / (1 × 1 / 3 + 1 / 2 × 1 / 3 + 0 × 1 / 3) = 2 / 3
-Problem 9:
