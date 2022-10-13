@@ -8,8 +8,11 @@ Question 2: (a): 0.9 * 0.9 * 0.9 * 0.9 = 0.6561
             (b): 
             (c): It is asssumed that their winning probability in the playoffs is just the same as that in the regular season, and that the games in the playoffs are independent from each other. 
 
-Question 3: (a):
-            (b):
+Question 3: (a): If we take No. of combinations to dealt 7 cards from a deck of 52 cards without restriction: 52C7
+               There are 12 face cards and 40 non-face cards in the deck: 12C2 × 40C5
+               P = 12C2 × 40C5 / 52C7 ≈ 0.3246
+            (b): P for no queen: 48C7/52C7
+               P for at least one queen: 1 - 48C7/52C7
 
 Question 4: 
 
