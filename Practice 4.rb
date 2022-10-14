@@ -22,7 +22,7 @@ Question 5: (a): 17C5/20C5
 Question 6: (a):
             (b):
 
-Question 7: 
+Question 7: 0.2656
 
 Question 8: (a):
             (b):
