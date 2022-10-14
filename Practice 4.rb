@@ -14,10 +14,10 @@ Question 3: (a): If we take No. of combinations to dealt 7 cards from a deck of 
             (b): P for no queen: 48C7/52C7
                P for at least one queen: 1 - 48C7/52C7
 
-Question 4: 
+Question 4: P(10 ≤ x ≤ 13) = 18C13 - 18C9 = 0.6078
 
-Question 5: (a):
-            (b):
+Question 5: (a): 17C5/20C5
+            (b): 3C2 x 17C3 / 20C5
 
 Question 6: (a):
             (b):
