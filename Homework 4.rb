@@ -1,5 +1,3 @@
-Section 5.5: 1
-
 Section 3.1: 1: Total samples are = 11 (10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
                 Favorable events = 6 (10, 12, 14, 16, 18, 20)
                 Probability that x is even is : = 6/11
