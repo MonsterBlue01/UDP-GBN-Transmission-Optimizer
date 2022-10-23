@@ -1,4 +1,4 @@
-Section 3.4: 1,2,3,4,5,8,10 (problem 1: (a) 1/2 (b) 0.75; problem 2: (a) 
+Section 3.4: 4,5,8,10 (problem 1: (a) 1/2 (b) 0.75; problem 2: (a) 
 0.27, (b) 0.53, (c) 0.69, (d) 0.3, (e) 0.25; problem 3: (a) 1/40 (b) 1/20 
 (c) 7/40 (d) 0.7; problem 4 (a) 3/2 (b) 3/8 (c) 1/8 (d) 1/2 (e) 0; problem 
 5: (a) 5/4; (b) 79/256 (c) 13/16 (d) 0; problem 8: (a) 5/78; (b) 25/78; 
@@ -49,4 +49,17 @@ Section 3.3: 3: P(X = x) = (1 - 0.5)^(x - 1) * 0.5 = 0.5 ^ x
             6. p.d.f.: Get the derivative of c.d.f.: e^(x - 3) x ≤ 3, 1 for x > 3
 
             9. Check the answer (Too complex)
+
+Section 3.4: 1: (a): According to the condition in question, we can get ∫(∫(c, x, 0, 2), y, 0, 1) = 2c. 2c = 1, c = 0.5.
+                (b): ∫(∫(1/2, x, y, 2), y, 0, 1) = 3/4
+
+            2: (a): ∑(P(X = 2, Y = y), y, 0, 4) = P(X = 2, Y = 0) + P(X = 2, Y = 1) + P(X = 2, Y = 2) + P(X = 2, Y = 3) + P(X = 2, Y = 4) = 0.27
+                (b): P(y ≥ 2) = 1 - P(y < 2) = 1 - {P(0) + P(1)} = 1 - (∑(P(X = x, Y = 0), x, 0, 3) + ∑(P(X = x, Y = 1), x, 0, 3)) = 0.53
+                (c): P(x ≤ 2 & y ≤ 2) = P(X = 0, y = 0) + P(X = 0, y = 1) + P(X = 0, y = 2) + P(X = 1, y = 0) + P(X = 1, y = 1) + P(X = 1, y = 2) + P(X = 2, y = 0) + P(X = 2, y = 1) + P(X = 2, y = 2) = 0.69
+                (d): P(X = Y) = P(X = 0, Y = 0) + P(X = 1, Y = 1) + P(X = 2, Y = 2) + P(X = 3, Y = 3) = 0.3
+                (e): P(X > Y) = P(X = 1, Y = 0) + P(X = 2, Y = 0) + P(X = 2, Y = 1) + P(X = 3, Y = 0) + P(X = 3, Y = 1) + P(X = 3, Y = 2) = 0.25
+
+            3: (a): Get the ∑, which is 40c. So 40c = 1, c = 1/40
+                (b): 1/40 x |0 - 2| = 1/20
+                (c): 1/40 x 7 = 7/40
             
