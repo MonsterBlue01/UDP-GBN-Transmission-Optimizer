@@ -1,4 +1,4 @@
-Section 3.5: 2, 3, 4, 6, 7, 8, 11 (problem 2: (a) (2x+3)/15 (b) (1+y)/10; 
+Section 3.5: 6, 7, 8, 11 (problem 2: (a) (2x+3)/15 (b) (1+y)/10; 
 problem 3: (b) they are independent; problem 4 (a) f(x)=15 x^2(1-x^2)/4 
 and f(y) = (5(1-y)^{3/2})/2 (b) not independent; problem 7: yes, problem 
 6: (b) 0 (c) 1/2; (d) 1/1280; problem 8: no; problem 11: 11/36.
@@ -67,4 +67,14 @@ Section 3.4: 1: (a): According to the condition in question, we can get ∫(∫(
             8: (a): F(x, y) = xy(x^2 + y) / 156 for 0 ≤ x ≤ 3, 0 ≤ y ≤ 4
                 P(a ≤ x ≤ b, a ≤ y ≤ b) = F(b, b) + F(a, a) - F(a, b) - F(b, a)
                 = P(1 ≤ x ≤ 2, 1 ≤ y ≤ 2) = F(2, 2) + F(1, 1) - F(1, 2) - F(2, 1) = 0.064
-            
+
+Section 3.5: 2: (a): fX(x) = Σ((1/30)(x+y), y, 0, 3) = 2x/15 + 1/5
+                    fY(y) = Σ((1/30)(x+y), y, 0, 2) = x/10 + 1/10
+                (b): fX(x) * fY(y) ≠ ((1/30)(x + y), which means they are not independent
+
+            4: (a): PDF: fX: (15/4) * ∫(x^2, y, 0, 1-x^2) = (15/4) * yx^2 ^1-x^2 _0 = (15/4) * (1-x^2)
+            x^2 = 15/4 * x^2
+                    fY: ∫((15/4)x^2, y, 1, y^2 + 1) = 15/4 * x^3 ^(y^2 + 1)_1 = 15/4 * (y^6 + 1) - 1
+             = (15/4) * y^6
+
+            (b): f(x, y) ≠ f(x) * f(y). So they are not independent.
