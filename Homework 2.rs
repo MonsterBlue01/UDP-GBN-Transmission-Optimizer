@@ -1,4 +1,3 @@
-// Section 1.7: Problems 2 (9000), 3, 5, 7, 8 (360/2401)
 // Section 1.8: Problems 1, 4 (1/10626), 6 (2/n), 10 (0.1630), 11, 12 
 // (0.5798), 17
 
@@ -60,6 +59,18 @@
 
 //             (1/2)^3 = 1/8
 //             2 * (1/8) = 1/4
+
+// Section 1.7: 2: 20 x 18 x 25 = 9000
+
+//             3: 5! = 120
+
+//             5: The probability for choose four number in six numbers on dice: 6C4
+//                 The probability for four different number: 4!
+//                 Answer: 6C4 x 4!
+
+//             7. favorable / total = 20 x 19 x 18...x 10 x 9 / 20^12
+
+//             8. 7 x 6 x 5 x 4 x 3 / 7^5
 
 fn main() {
     println!("Hello, world!");
