@@ -1,4 +1,4 @@
-Section 3.5: 6, 7, 8, 11 (problem 2: (a) (2x+3)/15 (b) (1+y)/10; 
+Section 3.5: 7, 8, 11 (problem 2: (a) (2x+3)/15 (b) (1+y)/10; 
 problem 3: (b) they are independent; problem 4 (a) f(x)=15 x^2(1-x^2)/4 
 and f(y) = (5(1-y)^{3/2})/2 (b) not independent; problem 7: yes, problem 
 6: (b) 0 (c) 1/2; (d) 1/1280; problem 8: no; problem 11: 11/36.
@@ -78,3 +78,10 @@ Section 3.5: 2: (a): fX(x) = Σ((1/30)(x+y), y, 0, 3) = 2x/15 + 1/5
              = (15/4) * y^6
 
             (b): f(x, y) ≠ f(x) * f(y). So they are not independent.
+
+            6: g(x) = 3/8 * x^2. Since x and y are independent variables.
+            So f(x) = 3/8 * x^2. f(y) = 3/8 * y^2.
+            (a): Joint p.d.f: f(x) * f(y) = (3/8 * x^2) * (3/8 * y^2) = 9/64 * x^2 * y^2
+            (b): Pr(X = Y) = ∫(∫(x^2 * y^2, y, x, x), x, 0, 2) = 0
+            (c): ∫(∫((9/64) * x^2 * y^2, x, y, 2), x, 0, 2) = 1/2
+            (d): ∫(∫((9/64) * x^2 * y^2, x, 0, 1 - y), x, 0, 1) = 1/1280
