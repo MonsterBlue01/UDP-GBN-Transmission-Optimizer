@@ -4,8 +4,8 @@
  * `kvpair_t` stores a pair strings: key and value.
  */
 typedef struct kvpair_t {
-  char *key;
-  char *value;
+    char *key;
+    char *value;
 } kvpair_t;
 
 /**
